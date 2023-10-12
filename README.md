@@ -40,8 +40,6 @@ While developing this project, we encountered several challenges:
 
 2. **React:** Implementing everything with React seemed to be much harder than doing it how we did in a2/a3 somehow. We ran into issues uploading our project to Glitch and had to move to an ec2 instance and that worked a lot better. Getting multiple pages to work was tedious. We also had some trouble with sessions, which we don't know why we were having issues with it since we couldn't get it to work and decided to take a different approach.
 
-Please note that this project is a work in progress, and there are ongoing efforts to improve and enhance its functionality.
-
 ## What Each Group Member Did
 
 - **Nikola Grozdani:** Implemented login screen, helped with authentication, and HTTP requests
