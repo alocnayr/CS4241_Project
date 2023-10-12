@@ -18,7 +18,7 @@ function Register() {
         if (EmailValidation(formValues)) {
             console.log(formValues);
             console.log("called right here…");
-            axios.post('http://localhost:8080/register', formValues)
+            axios.post('http://18.117.113.195:8080/register', formValues)
                 .then(response => {
                     if (response.status === 200) {
                         console.log("reaches login");

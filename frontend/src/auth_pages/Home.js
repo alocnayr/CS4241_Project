@@ -44,7 +44,7 @@ function Home() {
 
     const addFavoriteLocation = (locationName) => {
         axios
-            .post('http://localhost:8080/add-favorite-location', { locationName })
+            .post('http://18.117.113.195:8080/add-favorite-location', { locationName })
             .then((response) => {
                 if (response.status === 200) {
                     alert('Location added to favorites');
@@ -63,7 +63,7 @@ function Home() {
 
     const removeFavoriteLocation = (locationName) => {
         axios
-            .post('http://localhost:8080/remove-favorite-location', { locationName })
+            .post('http://18.117.113.195:8080/remove-favorite-location', { locationName })
             .then((response) => {
                 if (response.status === 200) {
                     alert('Location removed from favorites');
@@ -80,7 +80,7 @@ function Home() {
 
     const getFavoriteLocations = () => {
         axios
-            .get('http://localhost:8080/get-favorite-locations')
+            .get('http://18.117.113.195:8080/get-favorite-locations')
             .then((response) => {
                 setFavoriteLocations(response.data);
             })

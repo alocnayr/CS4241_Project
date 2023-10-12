@@ -16,7 +16,7 @@ function Login() {
         event.preventDefault();
         if (EmailValidation(formValues)) {
             console.log(formValues);
-            axios.post('http://localhost:8080/login', formValues)
+            axios.post('http://18.117.113.195:8080/login', formValues)
                 .then(response => {
                     if (response.status === 200) {
                         resetForm();
